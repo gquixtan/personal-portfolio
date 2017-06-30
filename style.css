@@ -10,7 +10,6 @@
 }
 .navbar-nav>li>a {
     padding-right: 50px;
- 
 }
 .gabby {
 	margin: 5% 5%;
@@ -41,7 +40,7 @@
 }
 #about {
 	background-color: white;
-	padding: 2px;
+	padding: 4px 2px 2px;
 }
 #coding {
 	background-color: white;
@@ -49,5 +48,18 @@
 }
 #contact {
 	background-color: white;
-	padding: 2px;
+	padding: 0px 2px 2px;
+}
+#end a.button {
+	padding: 0px 2px 2px;
+	text-align: center;
+	position: relative;
+	background-color: white;
+	text-decoration:none;
+}
+#top_return p {
+	font-size: 1em; 
+}
+#top_return {
+	text-align:center;
 }
