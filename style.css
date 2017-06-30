@@ -8,7 +8,10 @@
 .container .navbar{
 	background-color: white;
 }
-
+.navbar-nav>li>a {
+    padding-right: 50px;
+ 
+}
 .gabby {
 	margin: 5% 5%;
 	position: relative;
