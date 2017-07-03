@@ -1,6 +1,10 @@
 .wrap {
    background-image: url("img/floral-leaves.jpg");
 }
+.navbar {
+	margin-bottom: 5px;
+
+}
 .container {
 	background-color: rgb(49, 112, 140);
 	margin-top: 10%;
@@ -20,6 +24,10 @@
 	height: 32%;
 	border: solid gray 5px;
 }
+div p a:hover {
+	text-decoration: none;
+
+}
 #techtonica {
 	border-radius: 0px;
 	width: 5%;
@@ -31,6 +39,10 @@
 }
 .content {
 	margin: 5% 5%;
+}
+.post_content {
+	padding-top: 2px;
+	padding-left: 5px;
 }
 .navbar-brand{
 	color: white;
