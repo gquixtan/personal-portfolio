@@ -28,10 +28,18 @@
 
 	<!-- This function tells jquery to shake my picture -->
 
-    	<script type="text/javascript">
+    <script type="text/javascript">
 	$(document).ready(function() {
  	$(".pic").addClass("animated shake");
 	});
+
+        // $(document).click(function() {
+        // // $(window.scrollTo(0,$('#about').offset().top);
+        //     $('html,body').animate({scrollTop: $("#about").offset().top},'slow');
+        //     $('html,body').animate({scrollTop: $("#art").offset().top},'slow');
+        //     $('html,body').animate({scrollTop: $("#coding").offset().top},'slow');
+        //     $('html,body').animate({scrollTop: $("#contact").offset().top},'slow');
+        // }); 
 	</script>
 
     <!-- favicon -->
@@ -42,75 +50,79 @@
 <!-- Code for the page strts here  -->
 <div class="wrap">
     <div class="container">
+    
+    <!-- navbar navbar-default navbar-fixed-top -->
 
-    	<header class="navbar navbar-default navbar-fixed-top description">
+    	<header class="navbar navbar-fixed-top description">
      	<nav class="navbar navbar-light">
         <div>
             <h1 class="text-info">Gabriela Quixtan</h1>
         </div>    
             	<ul class="nav navbar-nav navbar-right">
-        	        <li class="active"><a href="#about" rel="nofollow" class="scrollable" href="#top">About Me</a></li>
+        	        <li class="active"><a href="#about" rel="nofollow" class="scrollable" href="#top">About</a></li>
+                    <!-- <li class="active"><a href="#art" rel="nofollow" class="scrollable" href="#contact">Art</a></li> -->
         	        <li class="active"><a href="#coding" rel="nofollow" class="scrollable" href="#portfolio">Coding</a></li>
         	        <li class="active"><a href="#contact" rel="nofollow" class="scrollable" href="#contact">Contact</a></li>
               	</ul>
 		</nav>
-        </header>   
-
-    <!-- <div class"clip">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/s6B6c4XgvRc" frameborder="0" allowfullscreen></iframe>
-    </div> -->
+        </header>
   
 
     <div class="content">
 
-        <div id="about" class="posts col">
-            <div class="post_content text-muted">
-                    <h2>About Me</h2>
+        <div class="posts col">
+            <div id="about" class="post_content text-muted">
+             <br>
+                    <h2>ABOUT</h2>
+                    <hr>
                     <img class="gabby pic" src="img/image2.jpg" alt="Gabriela smiling black and white pitcure.">
+                    <br>
+                    <article>
                      <p>Hi! I'm Gabriela aka Gabby.</p>
                      <p>I am a software engineer in the making @ <a href="https://techtonica.org/" target="blank">Techtonica</a>!</p>
+                     <p>
+                         blah! blah!
+                          blah!
+                           blah! blah!
+                            blah! blah! blah! blah!
 
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-           <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-
-
-        
-
+                         <p> blah! blah! blah! blah! blah! blah! blah!
+                           blah! blah! blah! blah!
+                            blah! blah! blah!</p>   
+                     </p> blah! blah! blah! blah! blah! blah! blah!
+                           blah! blah! blah! blah!
+                            blah! blah! blah!</p>
+                     </article>
             </div>
         </div> 
+<!--         <div class="posts col">
+            <div id="art" class="post_content text-muted">
+            <h2>ART</h2>
+            <hr>
+            <img src="img/gq.png">
+                         <p> blah! blah! blah! blah! blah! blah! blah!
+                           blah! blah! blah! blah!
+                            blah! blah! blah!</p>   
+                     </p> blah! blah! blah! blah! blah! blah! blah!
+                           blah! blah! blah! blah!
+                            blah! blah! blah!</p>
+            </div>
+        </div> -->
 
         <div id="coding" class="posts col">
-            <div class="post_content text-muted">
-                <h2>Coding &#60;&#47;&#62;</h2>
-                <p>Checkout my <a href="https://github.com/gquixtan" target="blank"><img class="github" src="img/github-logo.svg" alt="github logo."></a> & <a href="https://www.freecodecamp.com/gquixtan" target="blank"><img class="freecodecamp" src="img/freecodecamp-logo.svg" alt="twitter logo."></a> profile.</p>
+            <div class="post_content text-muted" >
+                <h2>CODING &#60;&#47;&#62; </h2>
+                <hr>
+                <p><a href="https://github.com/gquixtan" target="blank"><img class="github" src="img/github-logo.svg" alt="github logo."></a></p>
+                <p><a href="https://www.freecodecamp.com/gquixtan" target="blank"><img class="freecodecamp" src="img/freecodecamp-logo.svg" alt="twitter logo."></a></p>
 
+                <p aria-label="Left Align">
+                    <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span><a href="https://gquixtan.github.io/armory-sf/" target="blank"> Tribute Page</a>
+                </p>
+                <p aria-label="Left Align">
+                    <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span><a href="https://gquixtan.github.io/map/" target="blank"> Google Maps Demo</a>
+                </p>
 
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
-        <p>HELLO HELLLO HELLO HELLO HELLO</p>
 
             </div>
         </div>
@@ -118,21 +130,23 @@
 
         <div id="contact" class="posts col">
             <div class="post_content text-muted">
-                    <h2>Contact</h2>
-                    <p>Find me on <a href="https://twitter.com/g_quixtan" target="blank"><img class="twitter" src="img/twitter-logo.svg" alt="twitter logo."></a></p>
-                    <p>Read about my work history on <a href="https://www.linkedin.com/in/gquixtan/" target="blank"><img class="linkedin" src="img/linkedin-logo.svg" alt="linkedin logo."></a><p>
+                    <h2>CONTACT</h2>
+                    <hr>
+                    <p> <a href="https://twitter.com/g_quixtan" target="blank"><img class="twitter" src="img/twitter-logo.svg" alt="twitter logo."></a></p>
+                    <p><a href="https://www.linkedin.com/in/gquixtan/" target="blank"><img class="linkedin" src="img/linkedin-logo.svg" alt="linkedin logo."></a></p>
 
         	<div class="form-group">
                 <form>
             		<input type="email" placeholder="Your email">
                     <input type="submit">
             	</form>
+
             </div>
             </div>
         </div>
         <section id="end" >
             <div id="top_return">   
-                <p class="back_to_top"><a href="#top" class="button">back to top ↑</a></p>  
+                <p class="back_to_top"><a href="#top" class="button text-muted">Back to top ↑</a></p>  
             </div>
         </section>  
     </div>
